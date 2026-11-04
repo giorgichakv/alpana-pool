@@ -800,7 +800,7 @@
             </li>
 
             <li>
-                <a href="#contact">კონტაქტი</a>
+                <a href="{{ url('/contact') }}">კონტაქტი</a>
             </li>
 
         </ul>

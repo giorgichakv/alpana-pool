@@ -545,12 +545,12 @@ body::before{
             </li>
 
             <li>
-                <a href="#contact">კონტაქტი</a>
+                <a href="{{ url('/contact') }}">კონტაქტი</a>
             </li>
 
         </ul>
 
-        <a href="#contact" class="contact-btn">
+        <a href="{{ url('/contact') }}" class="contact-btn">
             დაიწყეთ თქვენი პროექტი
         </a>
 

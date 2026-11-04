@@ -50,3 +50,7 @@ Route::post('/checkout', [OrderController::class, 'store'])->name('order.store')
 use App\Http\Controllers\GalleryController;
 
 Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');

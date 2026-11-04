@@ -25,7 +25,7 @@
             <li><a href="{{ url('/shop') }}">სერვისები</a></li>
             <li><a href="{{ url('/news') }}">სიახლე</a></li>
             <li><a href="{{ url('/gallery') }}">გალერეა</a></li>
-            <li><a href="#">კონტაქტი</a></li>
+            <li><a href="{{ url('/contact') }}">კონტაქტი</a></li>
         </ul>
 
         <a href="#" class="contact-btn">
